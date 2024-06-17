@@ -99,7 +99,7 @@
                 <version>${spring-boot.version}</version>
                 <configuration>
                     <mainClass>com.hsbc.pong.PongApplication</mainClass>
-                    <skip>true</skip>
+<!--                    <skip>true</skip>-->
                 </configuration>
                 <executions>
                     <execution>

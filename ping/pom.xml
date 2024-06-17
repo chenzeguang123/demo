@@ -93,7 +93,7 @@
                 <version>${spring-boot.version}</version>
                 <configuration>
                     <mainClass>com.hsbc.ping.Ping01Application</mainClass>
-                    <skip>true</skip>
+<!--                    <skip>true</skip>-->
                 </configuration>
                 <executions>
                     <execution>

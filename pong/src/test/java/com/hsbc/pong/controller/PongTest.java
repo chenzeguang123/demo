@@ -32,6 +32,7 @@ class PongTest {
                     if(Objects.nonNull(res)){
                         System.out.println(res.getBody());
                         assertEquals(HttpStatus.TOO_MANY_REQUESTS.value(),res.getStatusCodeValue());
+//                        assertEquals(HttpStatus.PRECONDITION_REQUIRED.value(),res.getStatusCodeValue());
                     }
                 }
         );
